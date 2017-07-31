@@ -2,10 +2,10 @@
 
 ![ReactMarvel](./docs/react-marvel.png)
 
-This is a sample React app that demonstrates how to use the marvel API with redux and sagas to show a list of marvel characters and a list of comic books for each character.
+This is a sample React app which demonstrates how to use the marvel API with Redux and sagas to show a list of marvel characters and a list of comic books for each character.
 
 #### ❗ Important ❗
-How Marvel limit our request to **3000 requests** a day, maybe the demo page will not work depend how much users are trying to run, if you can run this demo, install this project in your machine and use [your own API keys](https://developer.marvel.com/documentation/getting_started) from marvel
+Because the Marvel API limit our request to **3000 requests** a day, maybe the demo page will not work depend how much users are trying to run, if you can run this demo, install this project in your machine and use [your own API keys](https://developer.marvel.com/documentation/getting_started) from marvel
 
 `./src/config/config.js`
 ```
