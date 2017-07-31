@@ -1,0 +1,53 @@
+{
+  "parser": "babel-eslint",
+  "parserOptions": {
+   "ecmaFeatures": {
+      "jsx": true
+    }
+  },
+  "extends": "airbnb",
+  "plugins": [
+    "babel",
+    "react",
+    "jsx-a11y",
+    "import"
+  ],
+  "env": {
+    "browser": true
+  },
+  "rules": {
+    "max-len": ["warn"],
+    "react/no-array-index-key": ["warn"],
+    "react/no-children-prop": ["warn"],
+    "jsx-a11y/no-static-element-interactions": ["warn"],
+    "jsx-a11y/href-no-hash": ["off"],
+    "newline-after-var": ["warn", "always"],
+    "no-unused-vars": ["warn"],
+    "no-unreachable": ["error"],
+    "padded-blocks": ["warn"],
+    "object-curly-spacing": ["warn"],
+    "react/prop-types": ["warn"],
+    "no-shadow": ["off"],
+    "arrow-body-style": ["warn"],
+    "comma-dangle": ["warn"],
+    "react/forbid-prop-types": ["off", { "forbid": [] }],
+    "react/prefer-stateless-function": ["warn"],
+    "newline-before-return": ["warn"],
+    "newline-per-chained-call": ["warn", { "ignoreChainWithDepth": 2 }],
+    "no-trailing-spaces": ["warn", { "skipBlankLines": false }],
+    "object-shorthand": ["warn", "consistent"],
+    "arrow-parens": ["warn", "always"],
+    "no-confusing-arrow": ["warn", {"allowParens": true}],
+    "quote-props": ["warn", "consistent"],
+    "semi": ["warn", "never"],
+    "react/require-default-props": ["off", {}],
+    "react/jsx-filename-extension": ["off", {}],
+    "no-console": "off",
+    "import/no-extraneous-dependencies": "off",
+    "import/extensions": "off",
+    "import/no-unresolved": "off",
+    "jsx-a11y/img-has-alt": [0],
+    "import/prefer-default-export": "off",
+    "no-debugger": ["off"]
+  }
+}
